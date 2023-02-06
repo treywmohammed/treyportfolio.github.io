@@ -1,0 +1,145 @@
+/*
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: "Overpass" , sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+
+}
+
+.main-container img{
+    background-color: hsl(216, 12%, 54%);
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.main-container h1{
+    color: hsl(0, 0%, 100%);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.main-container p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.main-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-container ul li button{
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    background-color:hsl(216, 12%, 54%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-container ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.main-container ul li button:focus{
+    background-color: hsl(217, 12%, 85%);
+}
+.main-container , .thank-you{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: .625rem;
+    padding: 1.5rem;
+    max-width: 400px;
+}
+
+button {
+    font-size: inherit;
+}
+.btn-submit {
+    text-transform: uppercase;
+    border: none;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    background-color:hsl(0, 0%, 100%);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 25px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-submit:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+.hidden{
+    display: none;
+
+}
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank-you p{
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+}
+
+.thank-you p.gray{
+background-color: hsl(216, 12%, 54%);
+border-radius: 25px;
+width: 50%;
+display: block;
+margin: 0 auto 2rem;
+padding: .25rem;
+text-align: center;
+color: hsl(25, 97%, 53%);
+
+}
+
+.thank-you h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
