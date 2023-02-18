@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    height: 100vh;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset{
+    min-width: 300px;
+    max-width: 500px;
+    height: 30vh;
+}
+
+.username{
+    min-width: 250px;
+    max-width: 450px;
+}
+
+.password{
+    min-width: 250px;
+    max-width: 450px;
+}
